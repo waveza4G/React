@@ -4,7 +4,7 @@ export default function App() {
   const [level, setLevel] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
   const [selectedButtonImage, setSelectedButtonImage] = useState(1); 
-  const images = ["รูปภาพ1.jpg", "Screenshot 2024-09-18 024748.png "];
+  const images = ["src/รูปภาพ1.jpg", "Screenshot 2024-09-18 024748.png "];
   const buttonImagesOptions = [["โม.jpg"],["รูปภาพ2.jpg"],["รูปภาพ3.jpg"],["images.jpg"],["ดาวน์โหลด.webp"],["ดาวน์โหลด (1).webp"],["ดาวน์โหลด (2).webp"],["images (1).jpg"],["8vjkzt.jpg"],["ดาวน์โหลด.jpg"]]; 
 
   const increaseLevel = () => {
